@@ -10,7 +10,7 @@ export default class InputParser {
     private separator: string;
     private filename: string;
     private path: string;
-    private file: string;
+    public file: string;
 
     constructor(filename: string, options?: InputParserOptions) {
         this.filename = path.basename(filename);
